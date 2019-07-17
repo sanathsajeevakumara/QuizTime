@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Spalsh_Title">Quiz App</string>
+
+    <!---On-Borading screen-->
+    <string name="country_intro_title1">Find The Country</string>
+    <string name="country_intro_title2">Improve Your Memory Skills</string>
+    <string name="country_intro_desc2">In this quiz you can able to memorize country names with
+        their flags</string>
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!---String array for dropdown list-->
+
+    <string name="question">Guess The Country Name</string>
+    <string name="submit">Submit</string>
+    <string-array name="countries">
+        <item>Andorra</item>
+        <item>United Arab Emirates</item>
+        <item>Afghanistan</item>
+        <item>Antigua and Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Netherlands Antilles</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>American Samoa</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+        <!--<item>aruba</item>-->
+    </string-array>
+
+</resources>

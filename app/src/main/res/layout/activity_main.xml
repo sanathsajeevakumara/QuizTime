@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spalch_screen"
+    android:animateLayoutChanges="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/spalch_screen_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/mobilevalprop2"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+        <RelativeLayout
+            android:id="@+id/spalash_screen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spalch_screen_logo">
+
+            <TextView
+                android:id="@+id/splash_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Spalsh_Title"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/latoregular"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:id="@+id/linlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/splash_main_title"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/btn_bg"
+                        android:textColor="@android:color/white"
+                        android:layout_below="@+id/linlayout1"
+                        android:onClick="findCountry"
+                        android:fontFamily="@font/latoregular"
+                        android:text="Guess the Country"/>
+
+                    <Button
+                        android:id="@+id/button_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="Guess Hints"
+                        android:layout_below="@+id/linlayout1"
+                        android:textColor="@android:color/white"
+                        app:layout_constraintBottom_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:fontFamily="@font/latoregular"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button_flag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="Guess the Flag"
+                        android:layout_below="@+id/linlayout1"
+                        android:fontFamily="@font/latoregular"
+                        android:textColor="@android:color/white"
+                        app:layout_constraintBottom_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button_advanced"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="Advanced Level"
+                        android:layout_below="@+id/linlayout1"
+                        android:fontFamily="@font/latoregular"
+                        android:textColor="@android:color/white"
+                        app:layout_constraintBottom_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+
+
+    </RelativeLayout>

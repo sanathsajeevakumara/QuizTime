@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181a24</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#cccccc</color>
+    
+    <color name="country_intro_color1">#109689</color>
+    <color name="country_intro_color2">#00797f</color>
+    <color name="country_intro_color3">#b5e577</color>
+
+    <color name="secondActivity">#f5f5f0</color>
+</resources>
